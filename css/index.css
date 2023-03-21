@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.step {
+  color: #656565;
+  font-weight: 700;
+}
+
+a.btn.btn-blue-bg {
+  display: block;
+  background-color: #6f8bef;
+  color: #ffffff;
+  max-width: 130px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px #6f8bef;
+}
+
+a.btn.btn-blue-bg:hover {
+  box-shadow: none;
+}
+
+/* header start */
+.navbar {
+  background-color: #f5f8ff;
+  color: #000000;
+}
+
+.navbar .navbar-brand img {
+  max-width: 200px;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link {
+  color: #000000;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar .navbar-nav .nav-item a.nav-link.active,
+.navbar .navbar-nav .nav-item a.nav-link:hover {
+  color: #6f8bef;
+  border-bottom: 2px solid #6f8bef;
+}
+/* header end */
+
+/* hero section start */
+.hero-section {
+  background-image: url("../images/home/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.hero-section h1 span {
+  color: #6f8bef;
+}
+
+/* hero section end */
+
+/* step section start */
+.step-section .block {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* step section end */
+
+/* dashboard section start */
+.dashboard-section {
+  background-image: url("../images/home/dashboard-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+}
+
+.dashboard-section .img-block img.dashboard-img {
+  width: 100%;
+}
+/* dashboard section end */
+
+/* features section start */
+.features-section .block {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* features section end */
+
+/* product images section start */
+.product-images-section {
+  background-color: #f5f8ff;
+}
+/* product images section end */
+
+/* why us section start */
+.why-us-section .block {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-us-section .block.orange-block {
+  color: #ffffff;
+  background-color: #ffa151;
+  border-radius: 20px;
+  border: 1px solid #ffa151;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-us-section .block.green-block {
+  color: #ffffff;
+  background-color: #46d0c3;
+  border-radius: 20px;
+  border: 1px solid #46d0c3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* why us section end */
+
+/* our application section start */
+.our-application-section {
+  background-color: #eff3ff;
+}
+/* our application section end */
+
+/* user reviews section start */
+.users-review-section .user-reviews-slider .main-block .block {
+  max-width: 550px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+/* user reviews section end */
+
+/* faq section start */
+.faq-section .accordion-header {
+  border-left: 5px solid #1c2d69;
+}
+/* faq section end */
+
+/* get in touch section start */
+.get-in-touch-section .link-block a {
+  color: #000000;
+  font-size: 17px;
+  transition: all 0.25s ease;
+}
+
+.get-in-touch-section .link-block a i {
+  color: #6f8bef;
+  transition: all 0.25s ease;
+}
+
+.get-in-touch-section .link-block a:hover {
+  color: #6f8bef;
+  transition: all 0.25s ease;
+}
+
+.get-in-touch-section .contact-block {
+  background-color: #6f8bef;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.get-in-touch-section .contact-block .custom-form-control {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.get-in-touch-section .contact-block .custom-form-control:focus {
+  border-bottom: 1px solid #ffffff;
+  box-shadow: none;
+}
+
+.get-in-touch-section .contact-block .custom-form-control::placeholder {
+  color: #ffffff;
+}
+/* get in touch section end */
+
+/* footer section start */
+.footer-section {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.footer-section .social-links-block a {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 6px 10px;
+  box-shadow: 0px 0px 5px #c5c5c5;
+}
+
+.footer-section .social-links-block a:hover {
+  box-shadow: none;
+}
+
+.footer-section .links p.footer-heading {
+  color: #6f8bef;
+  font-weight: bold;
+}
+
+.footer-section .links a {
+  color: #ffffff;
+  margin-bottom: 15px;
+  transition: all 0.25s ease;
+}
+
+.footer-section .links a:hover {
+  color: #6f8bef;
+  transition: all 0.25s ease;
+}
+
+/* footer section end */
