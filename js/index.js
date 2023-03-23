@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $(".product-images-slider").slick({
+    dots: true,
     centerMode: true,
     centerPadding: "60px",
     slidesToShow: 2,
@@ -9,7 +10,7 @@ $(document).ready(function () {
       {
         breakpoint: 768,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: "40px",
           slidesToShow: 2,
@@ -29,7 +30,22 @@ $(document).ready(function () {
 });
 
 $(".user-reviews-slider").slick({
+  dots: true,
   autoplay: true,
   autoplaySpeed: 2000,
   arrows: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+      },
+    },
+  ],
 });
